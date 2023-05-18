@@ -1,0 +1,20 @@
+/* class */
+.onethreefive {
+  background-color: rgb(255, 220, 224);
+  font-family: sans-serif;
+}
+
+.fourthelement {
+  background-color: rgb(209, 255, 240);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* id */
+#numbertwo-lol {
+  color: rgb(81, 121, 241);
+  font-size: 36px;
+}
+#newfontsize {
+  font-size: 24px;
+}
