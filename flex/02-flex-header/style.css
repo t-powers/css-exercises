@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  border: 1px solid tomato;
 }
 
 .header {
@@ -20,6 +20,7 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
 }
 
 a {
