@@ -7,8 +7,10 @@ body {
 }
 .icons {
   display: flex;
+  flex-flow: wrap;
 }
-img {
+img,
+.text {
   width: 100px;
   height: 100px;
   display: flex;
