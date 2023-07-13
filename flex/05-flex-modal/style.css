@@ -4,7 +4,9 @@ html,
 body {
   height: 100%;
 }
-
+h1 {
+  font-size: 20px;
+}
 body {
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -20,18 +22,26 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
+  padding: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
-}
-.top-line {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid red;
 }
-.all-else {
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.core-message {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid red;
+  flex: 1;
+  padding-left: 10px;
+  /* border: 1px solid red; */
+}
+.the-x {
+  display: flex;
+  padding-top: 10px;
 }
 .icon {
   color: royalblue;
@@ -71,10 +81,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-top: 15px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  margin-top: 15px;
 }
