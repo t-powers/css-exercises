@@ -22,7 +22,17 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
 }
-
+.top-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+.all-else {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid red;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
