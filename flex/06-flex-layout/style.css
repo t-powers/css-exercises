@@ -15,12 +15,17 @@ img {
   width: 600px;
 }
 
-/* **upper part** */
+/* **header and footers parts** */
 .header,
 .footer {
   display: flex;
   justify-content: space-between;
   border: 1px solid red;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 /* **middle part** */
@@ -31,7 +36,7 @@ img {
   align-items: center;
   border: 1px solid red;
 }
-/* **bottom part** */
+
 ul {
   display: flex;
   gap: 30px;
