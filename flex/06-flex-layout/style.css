@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 ul {
   list-style-type: none;
@@ -13,6 +15,27 @@ img {
   width: 600px;
 }
 
+/* **upper part** */
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid red;
+}
+
+/* **middle part** */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+/* **bottom part** */
+ul {
+  display: flex;
+  gap: 30px;
+}
 button {
   font-family: Roboto, sans-serif;
   border: none;
