@@ -20,16 +20,19 @@ img {
 .footer {
   display: flex;
   justify-content: space-between;
-  border: 1px solid red;
+  margin: 0px -5px;
+  padding: 5px;
+  /* border: 1px solid red; */
 }
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: gainsboro;
+  background-color: #eeeeee;
 }
 a {
   text-decoration: none;
+  color: rgb(30, 30, 30);
 }
 /* **middle part** */
 
@@ -39,7 +42,7 @@ a {
   align-items: center;
   flex: 1;
   justify-content: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 ul {
