@@ -6,23 +6,17 @@ body {
 }
 
 .header {
-  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  display: flex;
   height: 72px;
   background: #eee;
   color: darkmagenta;
 }
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
+
 .sidebar {
   width: 300px;
   background: royalblue;
@@ -33,5 +27,4 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.06);
   border-radius: 4px;
-  padding: 10px 25px;
 }
