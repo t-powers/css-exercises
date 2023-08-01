@@ -30,21 +30,30 @@ body {
   margin-right: 100px;
 }
 .sidebar {
-  width: 250px;
+  width: 300px;
   background: royalblue;
   box-sizing: border-box;
   flex-shrink: 0;
-  font-size: 25px;
+  /* font-size: 25px; */
   list-style-type: none;
 }
 ul {
   list-style-type: none;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0;
+  border: 1px solid red;
 }
+
+a {
+  text-decoration: none;
+}
+
 .all-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .card {
   border: 1px solid #eee;
@@ -55,5 +64,6 @@ ul {
   height: 300px;
   flex-wrap: wrap;
   margin: 10px;
-  border: 1px solid red;
+  padding: 10px;
+  /* border: 1px solid red; */
 }
